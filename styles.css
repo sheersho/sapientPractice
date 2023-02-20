@@ -1,0 +1,14 @@
+.container{
+    background-color: antiquewhite;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(3, minmax(300px, 600px));
+}
+
+.item{
+    background-color: rebeccapurple;
+    width: 100px;
+    height:100px
+}
+
